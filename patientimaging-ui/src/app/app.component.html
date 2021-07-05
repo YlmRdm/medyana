@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <h4>Patients</h4>
+    </div>
+    <div class="row">
+      <div class="col col-md-6">
+        <span>
+          <p>You can image all activities by using this module.</p>
+        </span>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr class="table-primary">
+            <th scope="col">Polyclinic Code</th>
+            <th scope="col">Doctor's Registration Number</th>
+            <th scope="col">Doctor's FullName</th>
+            <th scope="col">Patient Name</th>
+            <th scope="col">Patient Surname</th>
+            <th scope="col">patient Birthdate</th>
+            <th scope="col">patient Gender</th>
+            <th scope="col">patient Identity Number</th>
+            <th scope="col">patient Phone Number</th>
+            <th scope="col">patient Appointment Date</th>
+            <th scope="col">patient Next Appointment Date</th>
+            <th scope="col">patient Doctor's Note</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="patientList">
+          <tr *ngFor="let patient of patientList">
+            <td>{{ patient.PolyclinicCode }}</td>
+            <td>{{ patient.DoctorRegistrationNumber }}</td>
+            <td>{{ patient.DoctorFullName }}</td>
+            <td>{{ patient.Name }}</td>
+            <td>{{ patient.Surname }}</td>
+            <td>{{ patient.Birthdate }}</td>
+            <td>{{ patient.Gender }}</td>
+            <td>{{ patient.IdentityNumber }}</td>
+            <td>{{ patient.PhoneNumber }}</td>
+            <td>{{ patient.AppointmentDate }}</td>
+            <td>{{ patient.NextAppointmentDate }}</td>
+            <td>{{ patient.DoctorNote }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{AF1416CC-D2B1-4599-90B8-6B7CB3D7F2BF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="patientimaging-api/Persistence/PatientDataModel.cs">
+    <Files>
+      <File FileName="patientimaging-api/Persistence/PatientDataModel.cs" Line="14" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="patientimaging-api" expanded="True">
+            <Node name="patientimaging-api" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Hubs" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Persistence" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.patientimaging-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
